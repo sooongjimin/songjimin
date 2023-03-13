@@ -39,8 +39,7 @@ a {
 html, body {
   width: 100%;
   height: 100vh;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -64,20 +63,12 @@ body {
 }
 .container .schedule .month {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 .container .schedule .month li {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
 .container .schedule .month li input {
   position: absolute;
@@ -94,16 +85,14 @@ body {
   color: #ccc;
   display: inline-block;
   cursor: pointer;
-  -webkit-transition-duration: 2s;
-          transition-duration: 2s;
+  transition-duration: 2s;
 }
 .container .schedule .month li input[type=radio]:checked + label {
   font-size: 8rem;
   color: #1d1d1f;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 .container .summury {
   width: 20%;
   float: left;
-}/*# sourceMappingURL=schedule.css.map */
+}
